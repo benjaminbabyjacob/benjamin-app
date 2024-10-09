@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: nikhil-999/frontend:latest  # Replace with your GCP project ID
+        image: benjamin-98/frontend:latest  # Replace with your GCP project ID
         ports:
         - containerPort: 3000  # Match with the exposed port in your Dockerfile
 ---

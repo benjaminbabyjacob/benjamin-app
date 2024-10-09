@@ -14,18 +14,18 @@ spec:
     spec:
       containers:
       - name: backend
-        image: nikhil-999/backend:latest  # Replace with your GCP project ID
+        image: benjamin-98/backend:latest  # Replace with your GCP project ID
         ports:
         - containerPort: 5000  # Match with the exposed port in your Dockerfile
         env:
         - name: SQLSERVER_IP
-          value: "35.237.112.232"  # Replace with your SQL Server IP
+          value: "35.224.74.201"  # Replace with your SQL Server IP
         - name: SQLSERVER_DB
-          value: "flask_db"
+          value: "webappdb"
         - name: SQLSERVER_USER
           value: "sqlserver"
         - name: SQLSERVER_PASS
-          value: "Nikhil@1234"  # Make sure to use environment variables for sensitive data
+          value: "Annamma@1997"  # Make sure to use environment variables for sensitive data
 ---
 apiVersion: v1
 kind: Service

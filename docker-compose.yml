@@ -13,10 +13,10 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - SQLSERVER_IP=35.237.112.232
-      - SQLSERVER_DB=flask_db
+      - SQLSERVER_IP=35.224.74.201
+      - SQLSERVER_DB=webappdb
       - SQLSERVER_USER=sqlserver
-      - SQLSERVER_PASS=Nikhil@1234
+      - SQLSERVER_PASS=Annamma@1997
     depends_on:
       - frontend
 
